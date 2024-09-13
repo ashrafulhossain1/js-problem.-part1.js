@@ -1,0 +1,32 @@
+1. variable
+2. condition
+3. array
+4. loop
+5. object
+6. function
+
+// Math.min হল JavaScript এর একটি ফাংশন যা দেয়া সংখ্যাগুলোর মধ্যে সবচেয়ে ছোট সংখ্যা ফেরত দেয়।
+
+// উদাহরণস্বরূপ, যদি তুমি Math.min(5, 2, 9, 1, 4) লিখো, তাহলে এটা 1 ফেরত দিবে, কারণ ৫, ২, ৯, ১, এবং ৪ এর মধ্যে ১ হল সবচেয়ে ছোট সংখ্যা।
+
+
+22.6
+Math.abs হল JavaScript এর একটি বিল্ট-ইন ফাংশন যা একটি সংখ্যার পরম মান (absolute value) প্রদান করে।
+
+পরম মান (absolute value) বলতে একটি সংখ্যার ধনাত্মক (positive) মানকে বোঝায়। অর্থাৎ, যদি কোনো সংখ্যা ঋণাত্মক (negative) হয়, তাহলে Math.abs ফাংশন সেই সংখ্যাটিকে ধনাত্মক রূপে পরিণত করে।
+
+date time (calculate with index)
+==========================
+date.getDay() JavaScript-এ Date অবজেক্টের একটি মেথড, যা সপ্তাহের দিনটি প্রদান করে। এটি একটি সংখ্যা রিটার্ন করে, যেখানে:
+
+0 = রবিবার (Sunday)
+1 = সোমবার (Monday)
+2 = মঙ্গলবার (Tuesday)
+3 = বুধবার (Wednesday)
+4 = বৃহস্পতিবার (Thursday)
+5 = শুক্রবার (Friday)
+6 = শনিবার (Saturday)
+
+// update or set date 
+specificDate.setMonth(10);
+console.log(specificDate)
